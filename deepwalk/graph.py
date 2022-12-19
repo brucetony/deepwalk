@@ -4,17 +4,14 @@
 """Graph utilities."""
 
 import logging
-import sys
 from io import open
-from os import path
 from time import time
-from glob import glob
 from six.moves import range, zip, zip_longest
 from six import iterkeys
-from collections import defaultdict, Iterable
+from collections import defaultdict
+from typing import Iterable
 import random
-from random import shuffle
-from itertools import product,permutations
+from itertools import permutations
 from scipy.io import loadmat
 from scipy.sparse import issparse
 
